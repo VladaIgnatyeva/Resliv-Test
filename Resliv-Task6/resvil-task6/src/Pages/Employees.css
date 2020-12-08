@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-employee{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.container-employee p{
+   margin-right: 5px;
+}
+
+.icon{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.container-employee:hover .icon{
+    visibility: inherit;
+}
